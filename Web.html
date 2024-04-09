@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .heading-box {
+            border: 2px solid black; /* Border style */
+            padding: 10px; /* Padding inside the box */
+            width: 200px; /* Width of the box */
+            margin: 0 auto; /* Center the box horizontally */
+            color: red; /* Text color */
+            background-image: url('https://www.icegif.com/wp-content/uploads/2022/12/icegif-505.gif'); /* Background image */
+            background-size: 100% auto; /* Adjust to cover the entire box horizontally while maintaining aspect ratio */
+            background-position: center; /* Center the background image */
+        }
+
+        /* Styles for buttons */
+        button {
+            font-weight: bold; /* Make button text bold */
+            letter-spacing: 4px; /* Add spacing between button letters */
+            margin-bottom: 10px; /* Add margin below each button */
+            padding: 10px 20px; /* Add padding to the button */
+            border: none; /* Remove default button border */
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+
+        /* Style for Home button */
+        .home-button {
+            background-color: orange; /* Blue background */
+            color: white; /* White text color */
+        }
+
+        /* Style for Contact button */
+        .contact-button {
+            background-color: lightblue; /* Green background */
+            color: white; /* White text color */
+        }
+
+        /* Style for Help button */
+        .help-button {
+            background-color: green; /* Red background */
+            color: white; /* White text color */
+        }
+
+        /* Style for Enter button */
+        .enter-button {
+            background-color: gray; /* Background color */
+            color: white; /* Text color */
+            display: block; /* Make it a block element */
+            margin: 0 auto; /* Center horizontally */
+            padding: 15px 30px; /* Adjust padding */
+            font-size: 16px; /* Adjust font size */
+            border-radius: 5px; /* Add border radius for rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="heading-box">
+        <h1>...PRAVEEN... .......WEB.......</h1>
+    </div>
+    <!-- Bulleted list for Home, Contact, and Help -->
+    <ul>
+        <li><button class="home-button" onclick="window.location.href = '#';">Home</button></li>
+        <li><button class="contact-button" onclick="window.location.href = '#';">Contact</button></li>
+        <li><button class="help-button" onclick="window.location.href = '#';">Help</button></li>
+    </ul>
+    <p>This is a simple website created by Praveen.
+    </p>
+    <!-- Enter button -->
+    <button class="enter-button" onclick="window.location.href = 'Program.php';">Enter</button>
+</body>
+</html>
